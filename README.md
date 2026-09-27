@@ -34,6 +34,8 @@ Each notebook opens directly in Google Colab via the badge at the top — no loc
 - **CRF Filling shared task data** ([`NLP-FBK/dyspnea-crf-development`](https://huggingface.co/datasets/NLP-FBK/dyspnea-crf-development) and [`NLP-FBK/dyspnea-valid-options`](https://huggingface.co/datasets/NLP-FBK/dyspnea-valid-options)): 80 English dev notes annotated with 134 structured fields each, used in EX4 (loaded directly from the Hub inside the notebook, not stored in this repo).
 - **Cardiac/respiratory/neurological gold labels** (`dyspnea_real_labels.csv`): our own annotation of the notes above, used in EX2 and EX3 to check the weak labels against ground truth.
 
+For EX 3 you might want to download the already trained BERT model from [here](https://drive.google.com/file/d/18bAdKAjUX1KNrtgDQFlJ39GE33dsB-k0/view?usp=sharing).
+
 ## Contact
 
 Vittorio Torri — vittorio.torri@polimi.it
