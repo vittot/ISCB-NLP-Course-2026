@@ -1,0 +1,25 @@
+# This folder is also used for work-in-progress scripts/experiments that
+# are NOT part of the course repo. Default to ignoring everything, and only
+# re-include the course material explicitly.
+/*
+
+# Course material to track
+!/notebooks/
+!/data/
+!/slides/
+!/README.md
+!/.gitignore
+
+# Model weights are too large for GitHub (100 MB limit) — host them elsewhere.
+# (The small .pkl result caches used by ex2/ex3 are fine to commit.)
+/data/*.pt
+/data/**/*.pt
+
+# Common junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.venv/
+venv/
